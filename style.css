@@ -166,6 +166,10 @@ a:hover {
     color: #FEFC8F;
 }
 
+a:focus, a:hover {  
+    border: 2px solid #FEFC8F;  
+} 
+
 
 /*
 *** Formatações em geral ***
