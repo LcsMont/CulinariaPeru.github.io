@@ -1,0 +1,186 @@
+/* Limpar formatações padrão*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #000236;
+}
+
+/*
+*** Layout ***
+*/
+#area-cabecalho {
+    background-color: #030424;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+#area-logo,
+#area-menu {
+    padding: 10px;
+}
+
+#area-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5em;
+}
+
+#area-principal {
+    padding-top: 30px;
+    background: #000236;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens {
+    width: 400px;
+    float: right;
+}
+
+#area-postagens img {
+    margin-bottom: 50px;
+    width: 400px;
+    height: 336px;
+    border-radius: 12px;
+}
+
+#area-postagensR {
+    width: 400px;
+    float: right;
+}
+
+#area-postagensR img {
+    margin-bottom: 110px;
+    width: 400px;
+    height: 336px;
+    border-radius: 12px;
+}
+
+#area-lateral {
+    width: 460px;
+    float: left;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #000236;
+}
+
+#botao-sobre {
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.titles {
+    padding-bottom: 40px;
+}
+
+.titles h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragrafo {
+    margin-top: 130px;
+}
+
+.paragraf {
+    margin-top: 150px;
+}
+
+.parIn {
+    margin-top: 180px;
+}
+
+.parRes {
+    margin-top: 160px;
+}
+
+.ing {
+    position: relative;
+    top: 20px;
+}
+
+.tec {
+    position: relative;
+    top: 130px;
+}
+
+.tecRes {
+    position: relative;
+    top: 160px;
+}
+
+.inf {
+    position: relative;
+    top: 164px;
+}
+
+.botao {
+    width: 255px;
+    height: 79px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #8D8DDA;
+    color: #ffffff;
+}
+
+.botaoR {
+    width: 255px;
+    height: 79px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #8D8DDA;
+    color: #ffffff;
+}
+
+.botao:hover {
+    background-color: #6B6BA9;
+}
+
+/*
+*** Formatações em geral ***
+*/
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #FFF;
+    padding: 4px 8px;
+}
+
+a:hover {
+    color: #FEFC8F;
+}
+
+
+/*
+*** Formatações em geral ***
+*/
+h1 {
+    color: white;
+    font-size: 2.5em;
+    padding: 15px;
+}
+
+h3 {
+    padding: 15px;
+    color: white;
+}
+
+p {
+    padding: 15px;
+}
