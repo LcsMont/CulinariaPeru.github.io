@@ -243,3 +243,159 @@ p {
     text-decoration: none;
     cursor: pointer;
 }
+
+/*
+*** @media ***
+*/
+
+@media(max-width: 320px){
+    body {
+        max-width: 320px;
+    }
+    #rodape {
+        font-size: 10px;
+        width: 320px;
+    }
+    #area-cabecalho {
+        font-size: 10px;
+        width: 320px;
+        
+    }
+    #area-postagens {
+        width: 320px;
+        float: left;
+        position: relative;
+        left: 100px;
+    }
+    #area-postagens img{
+        position: relative;
+        right: 60px;
+        width: 250px;
+        margin-bottom: 200px;
+        height: 180px;
+    }
+    #a {
+        margin-top: 365px;
+    }
+    #aa {
+        margin-top: 200px;
+    }
+    #an {
+        margin-top: 220px;
+    }
+    #anticucho {
+        margin-top: 760px;
+    }
+    #anan {
+        margin-top: 50px;
+    }
+    #pulpo {
+        margin-top: 1190px;
+    }
+    #pulpo2 {
+        margin-top: 220px;
+    }
+    #botaoRestaura {
+        position: relative;
+        right: 15px;
+        top: 60px;
+    }
+    .p {
+        position: relative;
+        bottom: 18px;
+    }
+    .ing {
+        clear: both;
+        position:absolute;
+        top: 50px;
+    }
+    .tec {
+        position: absolute;
+        top: 370px;
+    }
+    .paragrafo {
+        position: relative;
+        top: 70px;
+    }
+    .inf {
+        position: absolute;
+        top: 750px;
+    }
+    .paragraf {
+        margin-top: 320px;
+    }
+    .titles {
+        font-size: 10px;
+        width: 320px;
+    }
+    #area-postagensR {
+        width: 320px;
+        float: left;
+        position: relative;
+        left: 100px;
+    }
+    #area-postagensR img {
+        position: relative;
+        right: 60px;
+        width: 250px;
+        margin-bottom: 200px;
+        height: 180px;
+    }
+    #area-lateral {
+        width: 320px;
+        font-size: 10px;
+        position: relative;
+        top: 200px;
+        right: 320px;
+    }
+    #botao-sobre {
+        margin-top: 1px;
+        position: relative;
+        left: 130px;
+    }
+    .parIn {
+        margin-top: 250px;
+    }
+    #maido2 {
+        margin-top: 40px;
+    }
+    #maido {
+        margin-top: 150px;
+    }
+    #astrid1 {
+        margin-top: 70px;
+    }
+    #laMar {
+        margin-top: 60px;
+    }
+    #Iso {
+        margin-top: 60px;
+    }
+    #Rafa {
+        margin-top: 60px;
+    }
+    .modal-conteudo {
+        width: 230px;
+        float: left;
+        position: relative;
+        left: 24px;
+    }
+    #machu1 {
+        margin-top: 380px;
+    }
+    #machu2 {
+        margin-top: 250px;
+    }
+    #val1 {
+        margin-top: 760px;
+    }
+    #val2 {
+        margin-top: 230px;
+    }
+    #arq1 {
+        margin-top: 1150px;
+    }
+    #arq2 {
+        margin-top: 230px;
+    }
+}
